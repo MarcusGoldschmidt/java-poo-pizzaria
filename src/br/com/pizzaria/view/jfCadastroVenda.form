@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="Venda"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                      <Component id="jbAlterar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jbCOnsultar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jbExcluir" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jbConfirmar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="205" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jldatadavenda" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlvalor" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlnumerodamesa" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlfuncionario_id_funcionario" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlcliente_id_cliente" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlcliente_id_cliente1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlcliente_id_cliente2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlfuncionario_id_funcionario1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="JT_CLIENTE_ID_CLIENTE" min="-2" pref="198" max="-2" attributes="0"/>
+                          <Component id="JT_FUNCIONARIO_ID_FUNCIONARIO" min="-2" pref="197" max="-2" attributes="0"/>
+                          <Component id="JT_DataDaVenda" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                          <Component id="JT_Valor" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                          <Component id="JT_NumeroDaMesa" min="-2" pref="196" max="-2" attributes="0"/>
+                          <Component id="JT_IdPizza" alignment="0" min="-2" pref="198" max="-2" attributes="0"/>
+                          <Component id="JT_Quantidade" min="-2" pref="198" max="-2" attributes="0"/>
+                          <Component id="JT_IdVenda" min="-2" pref="197" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="115" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="64" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlfuncionario_id_funcionario1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JT_IdVenda" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlfuncionario_id_funcionario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JT_FUNCIONARIO_ID_FUNCIONARIO" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="jlcliente_id_cliente" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="5" max="32767" attributes="0"/>
+                              <Component id="JT_CLIENTE_ID_CLIENTE" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JT_IdPizza" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlcliente_id_cliente1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlcliente_id_cliente2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JT_Quantidade" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jldatadavenda" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JT_DataDaVenda" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlvalor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JT_Valor" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="JT_NumeroDaMesa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlnumerodamesa" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbCOnsultar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbConfirmar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbAlterar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbExcluir" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jbConfirmar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Inserir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbConfirmarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jldatadavenda">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data da Venda:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JT_DataDaVenda">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlvalor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JT_Valor">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlnumerodamesa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero da Mesa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JT_NumeroDaMesa">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Venda"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbCOnsultar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Consultar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbCOnsultarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbAlterar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alterar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbAlterarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="JT_CLIENTE_ID_CLIENTE">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlcliente_id_cliente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cliente ID Cliente:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlfuncionario_id_funcionario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Funcionario ID Funcion&#xe1;rio:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JT_FUNCIONARIO_ID_FUNCIONARIO">
+    </Component>
+    <Component class="javax.swing.JButton" name="jbExcluir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Excluir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbExcluirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JT_IdPizza">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlcliente_id_cliente1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Id Pizza"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlcliente_id_cliente2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quantidade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JT_Quantidade">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlfuncionario_id_funcionario1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Id Venda:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JT_IdVenda">
+    </Component>
+  </SubComponents>
+</Form>
